@@ -14,6 +14,7 @@ import com.srk.dao.StudentDAO;
 
 import vo.Student;
 
+//webservlet
 @WebServlet("/viewStudents")
 public class ViewStudents extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)   
